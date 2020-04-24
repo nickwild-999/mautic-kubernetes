@@ -15,7 +15,7 @@ spec:
         app: mautic 
     spec:
       containers:
-        - image: mautic/mautic 
+        - image: nickwild/mautic 
           name: mautic
           env:
           - name: MAUTIC_DB_HOST
